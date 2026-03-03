@@ -1,19 +1,19 @@
 # Telco_Customer_Churn_Prediction
-# 📊 Telco Customer Churn Prediction
+# Telco Customer Churn Prediction
 
 An end-to-end **Machine Learning project** that predicts whether a telecom customer is likely to **churn (leave the service)**.  
 The project follows **industry best practices** including data preprocessing pipelines, feature engineering, multiple ML models, and performance optimization.
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 Customer churn is a major challenge in the telecom industry.  
 This project uses historical customer data to build a **binary classification model** that identifies customers who are likely to churn, enabling proactive retention strategies.
 
 ---
 
-## 🎯 Problem Statement
+## Problem Statement
 
 To predict whether a customer will **churn (Yes/No)** based on:
 - Demographic details  
@@ -25,7 +25,7 @@ This is a **supervised binary classification problem**.
 
 ---
 
-## 📁 Dataset
+## Dataset
 
 - **Name:** Telco Customer Churn Dataset  
 - **Source:** Kaggle  
@@ -37,15 +37,15 @@ Each row represents a customer, and columns include numerical and categorical fe
 
 ---
 
-## 🧠 Features Used
+## Features Used
 
-### 🔢 Numerical Features
+### Numerical Features
 - tenure  
 - MonthlyCharges  
 - TotalCharges  
 - AvgCharges *(engineered)*  
 
-### 🔤 Categorical Features
+### Categorical Features
 - gender  
 - SeniorCitizen  
 - Partner  
@@ -65,7 +65,7 @@ Each row represents a customer, and columns include numerical and categorical fe
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Language:** Python  
 - **Libraries:**  
@@ -76,7 +76,7 @@ Each row represents a customer, and columns include numerical and categorical fe
 
 ---
 
-## ⚙️ Project Workflow
+## Project Workflow
 
 Data Loading
 ↓
@@ -96,7 +96,7 @@ Performance Improvement
 
 ---
 
-## 🧹 Data Preprocessing
+## Data Preprocessing
 
 - Converted `TotalCharges` from string to numeric
 - Handled missing values using **SimpleImputer**
@@ -106,7 +106,7 @@ Performance Improvement
 
 ---
 
-## 🤖 Models Implemented
+## Models Implemented
 
 Each model is given a **unique identifier**:
 
@@ -120,7 +120,7 @@ Each model is given a **unique identifier**:
 
 ---
 
-## 📊 Evaluation Metrics
+## Evaluation Metrics
 
 Due to class imbalance, accuracy alone is not sufficient.  
 The following metrics are used:
@@ -128,8 +128,8 @@ The following metrics are used:
 - **Accuracy**
 - **Precision**
 - **Recall**
-- **F1-Score** ⭐
-- **ROC-AUC** ⭐
+- **F1-Score** 
+- **ROC-AUC** 
 
 > F1-Score and ROC-AUC are prioritized for churn prediction.
 
@@ -139,32 +139,32 @@ The following metrics are used:
 
 The following techniques were applied to improve model performance:
 
-### ✅ Feature Engineering
+###  Feature Engineering
 - Average monthly charges per tenure
 - High monthly charge indicator
 
-### ✅ Class Imbalance Handling
+###  Class Imbalance Handling
 - Used `class_weight='balanced'`
 
-### ✅ Stronger Models
+###  Stronger Models
 - Ensemble models like **Random Forest** and **Gradient Boosting**
 
-### ✅ Hyperparameter Tuning
+###  Hyperparameter Tuning
 - Used `GridSearchCV` for optimal parameters
 
-### ✅ Threshold Tuning
+###  Threshold Tuning
 - Adjusted probability threshold to improve Recall and F1-Score
 
 ---
 
-## 🏆 Best Model
+##  Best Model
 
 - **Random Forest (RF-ChurnForest)**  
 - Achieved the best balance between **Recall**, **F1-Score**, and **ROC-AUC**
 
 ---
 
-## 📌 Results Summary
+##  Results Summary
 
 - Ensemble models outperformed linear models
 - Feature engineering had a significant impact on performance
@@ -172,7 +172,7 @@ The following techniques were applied to improve model performance:
 
 ---
 
-## 📄 How to Run the Project
+##  How to Run the Project
 
 1. Clone the repository
 ```bash
