@@ -134,7 +134,7 @@ The following metrics are used:
 
 ---
 
-## 🚀 Model Performance Improvement Techniques
+## Model Performance Improvement Techniques
 
 The following techniques were applied to improve model performance:
 
